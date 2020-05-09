@@ -13,10 +13,11 @@ public class Main {
         String  octalNumber=Integer.toOctalString(intValue);
         System.out.println("Octal number: "+octalNumber);
 //        java octal to binary conversion:
-        String octalNumber1="361";
+        System.out.print("Enter octal number:");
+        String octalNumber1=scanner.next();
         int intNumber=Integer.parseInt(octalNumber1,8);
         String binaryNumber=Integer.toBinaryString(intNumber);
-        System.out.println(binaryNumber);
+        System.out.println("Output: "+ binaryNumber);
 
     }
 }
